@@ -2,8 +2,8 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	color: #ffffff;
-	background: #c94c4c;
+	color: green;
+	background: yellow;
 }
 
 /* Lettres minuscules */
